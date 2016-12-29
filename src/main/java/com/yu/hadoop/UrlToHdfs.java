@@ -16,7 +16,11 @@ public class UrlToHdfs {
     }
 
     public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
         String urlStr = "hdfs://master:9000/home/hadoop/hadoop-2.6.5/data/fs/file2.txt" ;
+=======
+        String urlStr = "hdfs://master:9000/home/hadoop/hadoop-2.6.5/data/fs/file1.txt" ;
+>>>>>>> github/master
         URL url = new URL(urlStr);
         InputStream is = url.openStream();
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
